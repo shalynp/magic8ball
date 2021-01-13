@@ -1,0 +1,87 @@
+/* Photo by Darren Nunis on Unsplash */
+
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80');
+  background-size: cover;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #f8f8f8; */
+
+}
+
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.ball, .button {
+  margin: 0 auto;
+}
+
+.ball {
+    position: absolute;
+    margin-left: -130px;
+}
+
+.answer {
+  position:absolute;
+  width:25%;
+  top:37%;
+  left:87% ;
+  font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+   	color: #eee;
+	border-radius: 50%;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #222;
+}
+
+#questionButton {
+  font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: #222;
+  text-shadow:  1px 1px 1px white, 2px 2px 5px gray;
+  background-color: #c278fa;
+  padding: 10px 75px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px #222, 10px 10px 5px black;
+
+}
+
+header {
+  padding-top: 0.25em;
+  text-align: center;
+
+}
+header span {
+  font-size: 60px;
+  color: white;
+  text-shadow: 10px 10px 20px black, 0 0 25px blue, 0 0 50px darkblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  text-shadow: 1px 1px 2px white, 1px 1px 2px black, 2px 2px 15px white;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
